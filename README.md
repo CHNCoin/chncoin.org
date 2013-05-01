@@ -1,36 +1,27 @@
-CHNCoin - a lite version of Litecoin used scrypt as a proof of work scheme.
- - 30 seconds block targets
- - subsidy halves in 4200k blocks (~4 years)
- - ~740 million million total coins
- - 88 coins per block
- - 1440 blocks to retarget difficulty
+CHNCoin - 一个基于Litecoin的新型P2P货币。
 
-Development process
-===================
+每分钟产生一个区块
+每2628000个区块产出减半（5年）
+总共462528000个货币
+每个区块88个货币
+每5040个区块调整一次难度（3天半）
+客户端下载地址：
+Windows 客户端：http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-QT.zip/download
+Windows Daemon：http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-Daemon.zip/download
+Linux 客户端： http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Linux.zip/download
+官方网站：
+官网：chncoin.org
+论坛：forum.chncoin.org (建设中）
+CNCoin - a lite version of Litecoin used scrypt as a proof of work scheme.
 
-Developers work in their own trees, then submit pull requests when
-they think their feature or bug fix is ready.
-
-The patch will be accepted if there is broad consensus that it is a
-good thing.  Developers should expect to rework and resubmit patches
-if they don't match the project's coding conventions (see coding.txt)
-or are controversial.
-
-The master branch is regularly built and tested, but is not guaranteed
-to be completely stable. Tags are regularly created to indicate new
-official, stable release versions of CNCoin.
-
-Feature branches are created when there are major new features being
-worked on by several people.
-
-From time to time a pull request will become outdated. If this occurs, and
-the pull is no longer automatically mergeable; a comment on the pull will
-be used to issue a warning of closure. The pull will be closed 15 days
-after the warning if action is not taken by the author. Pull requests closed
-in this manner will have their corresponding issue labeled 'stagnant'.
-
-Issues with no commits will be given a similar warning, and closed after
-15 days from their last activity. Issues closed in this manner will be 
-labeled 'stale'. 
-
-Check out http://chncoin.org for more info about the development.
+60 seconds block targets
+subsidy halves in 2628k blocks (5 years)
+~462.5 million million total coins
+88 coins per block
+5040 blocks to retarget difficulty
+Download Client：
+Windows QT Client: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-QT.zip/download
+Windows Daemon: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Windows-Daemon.zip/download
+Linux Client: http://sourceforge.net/projects/chncoin/files/0.6.3/CHNCoin-0.6.3-Linux.zip/download Official Sites: ===================
+Homepage: chncoin.org
+Forum: forum.chncoin.org (Coming soon)
